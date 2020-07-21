@@ -1,0 +1,12 @@
+name: Set Pipeline Library Branch
+description: 'Update the pipeline-lib Library reference to be the current branch'
+
+author: Brian J. Murrell <brian.murrell@intel.com>
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
+branding:
+  icon: 'git-commit'
+  color: orange
